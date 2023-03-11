@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav{
+  color: white;
+  position: relative;
+  padding: 2rem 4rem;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.title{
+  position: absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%,-75%);
+  color: white;
+  z-index: 2;
+  font-size: 1.4rem;
+}
